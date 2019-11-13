@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,13 @@
   "bugs": {
     "url": "https://github.com/EngyElSayed/shipping-service/issues"
   },
-  "homepage": "https://github.com/EngyElSayed/shipping-service#readme"
+  "homepage": "https://github.com/EngyElSayed/shipping-service#readme",
+  "devDependencies": {
+    "nock": "^11.7.0",
+    "sinon": "^7.5.0"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "express": "^4.17.1"
+  }
 }
